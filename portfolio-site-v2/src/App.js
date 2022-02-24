@@ -6,6 +6,7 @@ import Hero from "./components/Hero/Hero";
 import { ThemeProvider, createTheme } from "@mui/material/styles";
 import { lightBlue } from "@mui/material/colors";
 import About from "./components/About/About";
+import Projects from "./components/Projects/Projects";
 
 const App = () => {
 
@@ -21,6 +22,7 @@ const App = () => {
         <NavBar />
         <Hero />
         <About />
+        <Projects />
       </ThemeProvider>
     </>
   );
