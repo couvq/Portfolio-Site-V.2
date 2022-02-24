@@ -5,6 +5,7 @@ import Hero from "./components/Hero/Hero";
 
 import { ThemeProvider, createTheme } from "@mui/material/styles";
 import { lightBlue } from "@mui/material/colors";
+import About from "./components/About/About";
 
 const App = () => {
 
@@ -19,6 +20,7 @@ const App = () => {
       <ThemeProvider theme={theme}>
         <NavBar />
         <Hero />
+        <About />
       </ThemeProvider>
     </>
   );
