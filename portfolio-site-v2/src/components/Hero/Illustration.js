@@ -4,7 +4,7 @@ const Illustration = () => {
 
 
   return (
-    <div>Illustration</div>
+    <img src="/illustration.svg" alt="web developer" />
   );
 }
 
