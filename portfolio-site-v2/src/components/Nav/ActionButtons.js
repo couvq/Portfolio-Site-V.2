@@ -5,13 +5,13 @@ import { Stack } from '@mui/material';
 import LanguageToggler from './LanguageToggler';
 import ResumeDownloadButton from './ResumeDownloadButton';
 
-const ActionButtons = () => {
+const ActionButtons = ({ language, setLanguage }) => {
 
 
   return (
     <>
         <Stack direction="row" spacing={2}>
-            <LanguageToggler />
+            <LanguageToggler language={language} setLanguage={setLanguage} />
             <ResumeDownloadButton />
         </Stack>
     </>

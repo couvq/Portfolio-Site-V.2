@@ -4,7 +4,7 @@ import ActionButtons from "./ActionButtons";
 import LeftNav from "./LeftNav";
 
 
-const NavBar = () => {
+const NavBar = ({ language, setLanguage }) => {
   return (
     <>
       <AppBar 
@@ -14,7 +14,7 @@ const NavBar = () => {
       >
         <Toolbar>
           <LeftNav />
-          <ActionButtons />
+          <ActionButtons language={language} setLanguage={setLanguage} />
         </Toolbar>
       </AppBar>
     </>

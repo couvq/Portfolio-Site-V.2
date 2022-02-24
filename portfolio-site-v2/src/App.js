@@ -1,4 +1,5 @@
 import React from "react";
+import { useState } from "react";
 
 import NavBar from "./components/Nav/NavBar";
 import Hero from "./components/Hero/Hero";
@@ -12,6 +13,15 @@ import Contact from "./components/Contact/Contact";
 
 const App = () => {
 
+  const [language, setLanguage] = useState('En');
+
+  // IMPORTANT!!! This Function changes language but it gets passed down a huge chain of components:
+  //App -> NavBar -> ActionButtons -> LanguageToggler (Finally!!!)
+  const languageToggler = (e) => {
+    setLanguage(e.target.value);
+    
+  }
+
   const theme = createTheme({
     palette: {
       primary: lightBlue,
@@ -21,7 +31,7 @@ const App = () => {
   return (
     <>
       <ThemeProvider theme={theme}>
-        <NavBar />
+        <NavBar language={language} setLanguage={languageToggler} />
         <Hero />
         <About />
         <Projects />
