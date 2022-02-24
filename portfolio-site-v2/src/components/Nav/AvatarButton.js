@@ -5,10 +5,10 @@ import { Avatar, Button } from "@mui/material";
 const AvatarButton = () => {
   return (
     <>
-      <Button>
+      <Button href="#">
         <Avatar
           alt="Quentin Couvelaire"
-          src="/portfolio-site-v2/public/cosmoComposite19-20.jpg"
+          src="/cosmoComposite19-20.jpg"
           styles={{ cursor: "pointer" }}
         />
       </Button>
