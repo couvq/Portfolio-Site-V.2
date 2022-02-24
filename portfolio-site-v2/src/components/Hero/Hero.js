@@ -9,6 +9,12 @@ import HeroButtons from "./HeroButtons";
 import Illustration from "./Illustration";
 
 const Hero = () => {
+
+  const theme = useTheme();
+  const isMediumScreen = useMediaQuery(theme.breakpoints.down("md"), {
+    defaultMatches: true,
+  });
+
   return (
     <Container
       sx={{
@@ -18,7 +24,7 @@ const Hero = () => {
         marginTop: "10rem",
       }}
     >
-      <Stack direction="row" spacing={100}>
+      <Stack direction="row" spacing={isMediumScreen ? 10 : 100}>
         <div style={{ position: "absolute" }}>
           <HeroText />
           <HeroButtons />
