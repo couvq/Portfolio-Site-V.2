@@ -4,7 +4,7 @@ const Illustration = () => {
 
 
   return (
-    <img src="/illustration.svg" alt="web developer" style={{ float: 'right'}} />
+    <img src="/illustration.svg" alt="web developer" style={{ float: 'right', objectFit: 'cover'}} />
   );
 }
 
