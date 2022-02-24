@@ -9,7 +9,8 @@ const NavBar = () => {
     <>
       <AppBar 
       color="transparent"
-      position="sticky"
+      style={{ zIndex: 1 }}
+      sx={{ width: '100%'}}
       >
         <Toolbar>
           <LeftNav />
