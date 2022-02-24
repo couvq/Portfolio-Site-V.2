@@ -1,17 +1,22 @@
-import React from 'react';
+import { AppBar, Toolbar } from "@mui/material";
+import React from "react";
+import ActionButtons from "./ActionButtons";
 
-import AvatarButton from './AvatarButton';
-import NavLinks from './NavLinks';
+import AvatarButton from "./AvatarButton";
+import NavLinks from "./NavLinks";
 
 const NavBar = () => {
-
-
   return (
     <>
-        <AvatarButton />
-        <NavLinks />
+      <AppBar color="transparent">
+        <Toolbar>
+          <AvatarButton />
+          <NavLinks />
+          <ActionButtons />
+        </Toolbar>
+      </AppBar>
     </>
   );
-}
+};
 
 export default NavBar;
