@@ -1,11 +1,13 @@
 import { Button } from '@mui/material';
 import React from 'react';
 
+import CloudDownloadSharpIcon from '@mui/icons-material/CloudDownloadSharp';
+
 const ResumeDownloadButton = () => {
 
 
   return (
-    <Button variant='contained'>Download Resume</Button>
+    <Button variant='contained' endIcon={<CloudDownloadSharpIcon />}>Download Resume</Button>
   );
 }
 

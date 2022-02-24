@@ -1,17 +1,18 @@
 import { AppBar, Toolbar } from "@mui/material";
 import React from "react";
 import ActionButtons from "./ActionButtons";
+import LeftNav from "./LeftNav";
 
-import AvatarButton from "./AvatarButton";
-import NavLinks from "./NavLinks";
 
 const NavBar = () => {
   return (
     <>
-      <AppBar color="transparent">
+      <AppBar 
+      color="transparent"
+      position="sticky"
+      >
         <Toolbar>
-          <AvatarButton />
-          <NavLinks />
+          <LeftNav />
           <ActionButtons />
         </Toolbar>
       </AppBar>
