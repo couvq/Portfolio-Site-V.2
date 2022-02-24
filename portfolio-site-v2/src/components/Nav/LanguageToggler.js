@@ -5,7 +5,7 @@ const LanguageToggler = () => {
     
   return (
     <>
-        <FormControl>
+        <FormControl color='primary' size='small'>
             <Select
             value={'En'}
             >

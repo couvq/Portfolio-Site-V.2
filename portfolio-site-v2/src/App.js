@@ -4,7 +4,7 @@ import NavBar from "./components/Nav/NavBar";
 import Hero from "./components/Hero/Hero";
 
 import { ThemeProvider, createTheme } from "@mui/material/styles";
-import { lightBlue } from "@mui/material/colors";
+import { lightBlue, yellow } from "@mui/material/colors";
 
 const App = () => {
 

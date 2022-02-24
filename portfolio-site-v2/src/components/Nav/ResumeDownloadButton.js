@@ -5,12 +5,20 @@ import CloudDownloadSharpIcon from "@mui/icons-material/CloudDownloadSharp";
 
 const ResumeDownloadButton = () => {
   return (
-    
-      <Button variant="contained" startIcon={<CloudDownloadSharpIcon />}>
-      <a href="/QuentinCouvelaireResume.pdf" style={{ textDecoration: 'none', color: 'white'}} download>
+    <a
+      href="/QuentinCouvelaireResume.pdf"
+      style={{ textDecoration: "none", color: "#fff", }}
+      download
+    >
+      <Button
+        variant="contained"
+        startIcon={<CloudDownloadSharpIcon sx={{ color: "#fff", }} />}
+        sx={{ color: '#fff'}}
+        size="medium"
+      >
         Resume
-      </a>
       </Button>
+    </a>
   );
 };
 
