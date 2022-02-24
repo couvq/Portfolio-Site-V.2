@@ -8,7 +8,7 @@ const NavBar = () => {
   return (
     <>
       <AppBar 
-      color="transparent"
+      color="background"
       style={{ zIndex: 1 }}
       sx={{ width: '100%'}}
       >
