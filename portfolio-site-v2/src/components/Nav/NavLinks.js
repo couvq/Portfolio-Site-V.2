@@ -18,10 +18,10 @@ const NavLinks = () => {
      }
    }}
    >
-        <Button href='#About'>About</Button>
-        <Button href='#Projects'>Projects</Button>
-        <Button href='#Technologies'>Technologies</Button>
-        <Button href='#Contact'>Contact</Button>
+        <Button sx={{ color: 'rgba(0,0,0,0.87)' }} href='#About'>About</Button>
+        <Button sx={{ color: 'rgba(0,0,0,0.87)' }} href='#Projects'>Projects</Button>
+        <Button sx={{ color: 'rgba(0,0,0,0.87)' }} href='#Technologies'>Technologies</Button>
+        <Button sx={{ color: 'rgba(0,0,0,0.87)' }} href='#Contact'>Contact</Button>
     </Stack>
   );
 }
