@@ -5,7 +5,7 @@ const Technologies = () => {
 
 
   return (
-    <div>Technologies</div>
+    <div id="Technologies">Technologies</div>
   );
 }
 

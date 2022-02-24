@@ -8,6 +8,7 @@ import { lightBlue } from "@mui/material/colors";
 import About from "./components/About/About";
 import Projects from "./components/Projects/Projects";
 import Technologies from "./components/Technologies/Technologies";
+import Contact from "./components/Contact/Contact";
 
 const App = () => {
 
@@ -25,6 +26,7 @@ const App = () => {
         <About />
         <Projects />
         <Technologies />
+        <Contact />
       </ThemeProvider>
     </>
   );
