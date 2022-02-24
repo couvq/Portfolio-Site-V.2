@@ -3,6 +3,7 @@ import React from "react";
 
 import HeroText from "./HeroText";
 import HeroButtons from "./HeroButtons";
+import Illustration from "./Illustration";
 
 const Hero = () => {
   return (
@@ -11,6 +12,7 @@ const Hero = () => {
         <HeroText />
         <HeroButtons />
       </div>
+      <Illustration />
     </Container>
   );
 };
