@@ -7,11 +7,11 @@ const NavLinks = () => {
 
 
   return (
-    <Stack direction="row" spacing={2}>
-        <Link href='#'>About</Link>
-        <Link href='#'>Projects</Link>
-        <Link href='#'>Technologies</Link>
-        <Link href='#'>Contact</Link>
+    <Stack direction="row" spacing={3}>
+        <Link style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', textDecoration: 'none', fontSize: '1.8rem'}} href='#'>About</Link>
+        <Link style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', textDecoration: 'none', fontSize: '1.8rem'}} href='#'>Projects</Link>
+        <Link style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', textDecoration: 'none', fontSize: '1.8rem'}} href='#'>Technologies</Link>
+        <Link style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', textDecoration: 'none', fontSize: '1.8rem'}} href='#'>Contact</Link>
     </Stack>
   );
 }

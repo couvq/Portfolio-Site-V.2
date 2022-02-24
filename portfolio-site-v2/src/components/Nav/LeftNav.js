@@ -6,7 +6,7 @@ import NavLinks from "./NavLinks";
 const LeftNav = () => {
   return (
     <div style={{ flexGrow: 1 }}>
-      <Stack>
+      <Stack direction="row" spacing={2} >
         <AvatarButton />
         <NavLinks />
       </Stack>
