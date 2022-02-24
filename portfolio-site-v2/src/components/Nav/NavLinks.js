@@ -18,10 +18,10 @@ const NavLinks = () => {
      }
    }}
    >
-        <Button href='#'>About</Button>
-        <Button href='#'>Projects</Button>
-        <Button href='#'>Technologies</Button>
-        <Button href='#'>Contact</Button>
+        <Button href='#About'>About</Button>
+        <Button href='#Projects'>Projects</Button>
+        <Button href='#Technologies'>Technologies</Button>
+        <Button href='#Contact'>Contact</Button>
     </Stack>
   );
 }
