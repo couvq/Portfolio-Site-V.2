@@ -8,7 +8,7 @@ import Illustration from "./Illustration";
 const Hero = () => {
   return (
     <Container sx={{ margin: "5rem 2.5rem" }}>
-      <div>
+      <div style={{ position: 'absolute'}}>
         <HeroText />
         <HeroButtons />
       </div>
