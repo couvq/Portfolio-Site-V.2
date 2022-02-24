@@ -24,7 +24,7 @@ const Hero = () => {
         marginTop: "10rem",
       }}
     >
-      <Stack direction="row" spacing={isMediumScreen ? 10 : 100}>
+      <Stack direction="row" spacing={isMediumScreen ? 10 : 80}>
         <div style={{ position: "absolute" }}>
           <HeroText />
           <HeroButtons />
