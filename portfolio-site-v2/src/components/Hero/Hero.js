@@ -26,7 +26,7 @@ const Hero = ({ language }) => {
     >
       <Stack direction="row" spacing={isMediumScreen ? 10 : 80}>
         <div style={{ position: "absolute" }}>
-          <HeroText />
+          <HeroText language={language} />
           <HeroButtons language={language} />
         </div>
         <Illustration />
