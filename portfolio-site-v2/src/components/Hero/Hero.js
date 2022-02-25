@@ -1,4 +1,4 @@
-import { Container, Stack } from "@mui/material";
+import { Card, Box, Container, Stack } from "@mui/material";
 import React from "react";
 
 import { useMediaQuery } from "@mui/material";
@@ -26,8 +26,10 @@ const Hero = ({ language }) => {
     >
       <Stack direction="row" spacing={isMediumScreen ? 10 : 80}>
         <div style={{ position: "absolute" }}>
+          <Box sx={{ padding: '1.5rem',width: '30rem'}}>
           <HeroText language={language} />
           <HeroButtons language={language} />
+          </Box>
         </div>
         <Illustration />
       </Stack>
