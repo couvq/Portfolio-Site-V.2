@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react';
 
 const data = {
   En : ["About", "Projects", "Technologies", "Contact"],
-  Fr : ["", "", "", ""]
+  Fr : ["À propos de moi", "Projets", "Les technologies", "Contactez moi"]
 }
 
 // console.log(data.En[0]); accesses "About"
