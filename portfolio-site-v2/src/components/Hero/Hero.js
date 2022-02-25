@@ -1,4 +1,4 @@
-import { Card, Box, Container, Stack } from "@mui/material";
+import {Box, Container, Stack } from "@mui/material";
 import React from "react";
 
 import { useMediaQuery } from "@mui/material";
