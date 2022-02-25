@@ -26,7 +26,7 @@ const Hero = ({ language }) => {
     >
       <Stack direction="row" spacing={isMediumScreen ? 10 : 80}>
         <div style={{ position: "absolute" }}>
-          <Box sx={{ padding: '1.5rem',width: '30rem'}}>
+          <Box sx={{ padding: '1.5rem',width: '30rem', backgroundColor: 'rgba(0,0,0,. 5)'}}>
           <HeroText language={language} />
           <HeroButtons language={language} />
           </Box>

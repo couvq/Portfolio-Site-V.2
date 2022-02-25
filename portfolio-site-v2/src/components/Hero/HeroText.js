@@ -29,7 +29,7 @@ useEffect(() => {
   return (
     <>
         <Typography variant='h1'>{text[0]}</Typography>
-        <Typography variant='h5'>{text[1]}</Typography>
+        <Typography variant='h6'>{text[1]}</Typography>
     </>
   );
 }
