@@ -8,7 +8,7 @@ import HeroText from "./HeroText";
 import HeroButtons from "./HeroButtons";
 import Illustration from "./Illustration";
 
-const Hero = () => {
+const Hero = ({ language }) => {
 
   const theme = useTheme();
   const isMediumScreen = useMediaQuery(theme.breakpoints.down("md"), {
@@ -27,7 +27,7 @@ const Hero = () => {
       <Stack direction="row" spacing={isMediumScreen ? 10 : 80}>
         <div style={{ position: "absolute" }}>
           <HeroText />
-          <HeroButtons />
+          <HeroButtons language={language} />
         </div>
         <Illustration />
       </Stack>
