@@ -3,12 +3,12 @@ import React from "react";
 import AvatarButton from "./AvatarButton";
 import NavLinks from "./NavLinks";
 
-const LeftNav = () => {
+const LeftNav = ({ language }) => {
   return (
     <div style={{ flexGrow: 1 }}>
       <Stack direction="row" spacing={2} >
         <AvatarButton />
-        <NavLinks />
+        <NavLinks language={language}/>
       </Stack>
     </div>
   );

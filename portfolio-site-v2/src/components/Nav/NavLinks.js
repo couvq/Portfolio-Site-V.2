@@ -1,10 +1,18 @@
 import { Stack, Button } from '@mui/material';
 import React from 'react';
+import { useEffect } from 'react';
 
 
-const NavLinks = () => {
+const NavLinks = ({ language }) => {
 
+  const changeLanguage = () => {
+    console.log('the language changed in NavLinks Component: ' + language);
+  }
 
+  // change textdata if language changes
+useEffect(() => {
+  changeLanguage();
+}, [language]);
 
   return (
     <Stack

@@ -13,7 +13,7 @@ const NavBar = ({ language, setLanguage }) => {
       sx={{ width: '100%'}}
       >
         <Toolbar>
-          <LeftNav />
+          <LeftNav language={language} />
           <ActionButtons language={language} setLanguage={setLanguage} />
         </Toolbar>
       </AppBar>
