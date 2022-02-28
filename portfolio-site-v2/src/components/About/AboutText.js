@@ -9,7 +9,7 @@ const AboutText = () => {
       <Typography variant="h2">About Me</Typography>
       <br />
       <Typography variant="h5">
-        I'm a Front End Developer currently based in Detroit, MI.
+        I'm a Frontend Developer currently based in Detroit, MI.
       </Typography>
       <br />
       <Typography>
@@ -20,7 +20,7 @@ const AboutText = () => {
       </Typography>
       <br />
       <Typography>
-        When I'm not coding, you'll probably find me in the gym, reading, or
+        When I'm not coding you'll probably find me in the gym, reading, or
         hanging out with friends.
       </Typography>
       <br />
