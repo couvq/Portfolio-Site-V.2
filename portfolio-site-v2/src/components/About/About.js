@@ -1,4 +1,5 @@
 import { Grid } from "@mui/material";
+import { Box } from "@mui/system";
 import React from "react";
 
 import AboutImage from "./AboutImage";
@@ -11,16 +12,16 @@ const About = () => {
       style={{
         width: "100%",
         height: "auto",
-        margin: '2.5rem 5rem',
-        marginTop: '2rem',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center'
+        margin: "2.5rem 5rem",
+        marginTop: "2rem",
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
       }}
     >
       <Grid
         container
-        spacing={5}
+        spacing={3}
         sx={{
           display: "flex",
           justifyContent: "center",
@@ -31,7 +32,14 @@ const About = () => {
           <AboutImage />
         </Grid>
         <Grid item xs={12} md={8}>
-          <AboutText />
+          <Box sx={{
+            width: {
+              sm: '100vw',
+              md: '50vw'
+            }
+          }}>
+            <AboutText />
+          </Box>
         </Grid>
       </Grid>
     </div>
