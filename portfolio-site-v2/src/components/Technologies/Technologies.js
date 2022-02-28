@@ -5,7 +5,13 @@ const Technologies = () => {
 
 
   return (
-    <div id="Technologies">Technologies</div>
+    <div 
+    id="Technologies"
+    style={{
+      padding: '2.5rem 5rem'
+    }}
+    >
+    Technologies</div>
   );
 }
 

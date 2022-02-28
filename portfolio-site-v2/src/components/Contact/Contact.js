@@ -5,7 +5,13 @@ const Contact = () => {
 
 
   return (
-    <div id="Contact">Contact</div>
+    <div 
+    id="Contact"
+    style={{
+      padding: '2.5rem 5rem'
+    }}
+    >
+    Contact</div>
   );
 }
 
