@@ -29,7 +29,7 @@ const App = () => {
   });
 
   return (
-    <>
+    <div style={{ overflowX: 'hidden'}}>
       <ThemeProvider theme={theme}>
         <NavBar language={language} setLanguage={languageToggler} />
         <Hero language={language} />
@@ -38,7 +38,7 @@ const App = () => {
         <Technologies />
         <Contact />
       </ThemeProvider>
-    </>
+    </div>
   );
 };
 
