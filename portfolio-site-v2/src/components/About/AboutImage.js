@@ -1,5 +1,4 @@
 import React from 'react';
-import { lightBlue } from '@mui/material/colors';
 
 const AboutImage = () => {
 
@@ -8,7 +7,7 @@ const AboutImage = () => {
     <img 
     src='/cosmoComposite19-20.jpg'
     alt='Quentin Couvelaire About Me'
-    style={{ borderRadius: '50%', border: 'solid 3px #03a9f4', display: 'block', marginLeft: 'auto', marginRight: 'auto', width: '100%'}}
+    style={{ borderRadius: '50%', border: 'solid 3px #03a9f4', display: 'block', marginLeft: 'auto', marginRight: 'auto', width: '100%', alignSelf: 'center'}}
     />
   );
 }

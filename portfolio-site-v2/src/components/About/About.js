@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Grid } from "@mui/material";
 import AboutImage from "./AboutImage";
+import AboutText from "./AboutText";
 
 const About = () => {
   return (
@@ -11,7 +12,7 @@ const About = () => {
             <AboutImage />
           </Grid>
           <Grid item sm={12} md={6}>
-            {/* TODO: this is where our About me section text/ navlinks goes */}
+            <AboutText />
           </Grid>
         </Grid>
       </Container>
