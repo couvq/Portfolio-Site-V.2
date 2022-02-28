@@ -2,14 +2,17 @@ import React from "react";
 import { Container, Grid } from "@mui/material";
 import AboutImage from "./AboutImage";
 import AboutText from "./AboutText";
+import { Box } from "@mui/system";
 
 const About = () => {
   return (
-    <div id="About" style={{width: '100vw', height: '100vh'}}>
+    <div id="About" style={{ width: "100vw", height: "100vh" }}>
       <Container>
-        <Grid container spacing={6} justify="center" alignItems="center" justifyContent="center" margin="5rem 2.5rem">
-          <Grid item sm={12} md={6} >
-            <AboutImage />
+        <Grid container spacing={6} justify="center" margin="5rem 2.5rem">
+          <Grid item sm={12} md={6}>
+            <Box display="flex" justifyContent="center" alignItems="center">
+              <AboutImage />
+            </Box>
           </Grid>
           <Grid item sm={12} md={6}>
             <AboutText />
