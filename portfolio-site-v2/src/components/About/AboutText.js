@@ -1,6 +1,8 @@
 import { Typography } from "@mui/material";
 import React from "react";
 
+import AboutSocialLinks from "./AboutSocialLinks";
+
 const AboutText = () => {
   return (
     <>
@@ -19,8 +21,10 @@ const AboutText = () => {
       <br />
       <Typography>
         When I'm not coding, you'll probably find me in the gym, reading, or
-        hanging out with friends
+        hanging out with friends.
       </Typography>
+      <br />
+      <AboutSocialLinks />
     </>
   );
 };

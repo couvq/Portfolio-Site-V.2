@@ -12,7 +12,7 @@ const ResumeDownloadButton = () => {
     >
       <Button
         variant="contained"
-        startIcon={<CloudDownloadSharpIcon sx={{ color: "#fff", }} />}
+        startIcon={<CloudDownloadSharpIcon sx={{ color: "#fff" }} />}
         sx={{ color: '#fff'}}
         size="medium"
       >
