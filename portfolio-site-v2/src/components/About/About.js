@@ -12,7 +12,7 @@ const About = ({ language }) => {
       style={{
         width: "100%",
         height: "auto",
-        margin: "2.5rem 5rem",
+        padding: "2.5rem 5rem",
         marginTop: "2rem",
         display: "flex",
         justifyContent: "center",
