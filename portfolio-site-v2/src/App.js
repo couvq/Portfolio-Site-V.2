@@ -33,7 +33,7 @@ const App = () => {
       <ThemeProvider theme={theme}>
         <NavBar language={language} setLanguage={languageToggler} />
         <Hero language={language} />
-        <About />
+        <About language={language} />
         <Projects />
         <Technologies />
         <Contact />

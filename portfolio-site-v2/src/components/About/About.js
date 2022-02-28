@@ -5,7 +5,7 @@ import React from "react";
 import AboutImage from "./AboutImage";
 import AboutText from "./AboutText";
 
-const About = () => {
+const About = ({ language }) => {
   return (
     <div
       id="About"
@@ -38,7 +38,7 @@ const About = () => {
               md: '50vw'
             }
           }}>
-            <AboutText />
+            <AboutText language={language} />
           </Box>
         </Grid>
       </Grid>
