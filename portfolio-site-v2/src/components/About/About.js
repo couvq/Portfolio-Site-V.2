@@ -5,8 +5,8 @@ import AboutText from "./AboutText";
 
 const About = () => {
   return (
-    <div id="About">
-      <Container sx={{ width: '100vh', height: '100vh'}}>
+    <div id="About" style={{width: '100vw', height: '100vh'}}>
+      <Container>
         <Grid container spacing={6} alignItems="center" justifyContent="center">
           <Grid item sm={12} md={6}>
             <AboutImage />
