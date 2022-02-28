@@ -9,7 +9,7 @@ const About = () => {
     <div id="About" style={{ width: "100vw", height: "100vh" }}>
       <Container>
         <Grid container spacing={6} justify="center" margin="5rem 2.5rem">
-          <Grid item sm={12} md={6}>
+          <Grid item sm={12} md={6} justify="center">
             <Box display="flex" justifyContent="center" alignItems="center">
               <AboutImage />
             </Box>
