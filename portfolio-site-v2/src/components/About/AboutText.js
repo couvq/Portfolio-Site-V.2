@@ -47,8 +47,6 @@ const AboutText = ({ language }) => {
 
   return (
     <>
-      <Typography variant="h2">{text[0]}</Typography>
-      <br />
       <Typography variant="h5">{text[1]}</Typography>
       <br />
       <Typography>{text[2]}</Typography>

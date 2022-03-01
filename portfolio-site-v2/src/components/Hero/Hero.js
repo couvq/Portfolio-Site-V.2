@@ -24,7 +24,7 @@ const Hero = ({ language }) => {
         marginTop: "10rem",
       }}
     >
-      <Stack direction="row" spacing={isMediumScreen ? 10 : 80}>
+      <Stack direction="row" spacing={isMediumScreen ? 0 : 70}>
         <div style={{ position: "absolute" }}>
           <Box sx={{ padding: '1.5rem',width: '30rem', background: 'rgba(255,255,255, 0.5)', borderRadius: '5%'}}>
           <HeroText language={language} />

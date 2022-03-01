@@ -1,4 +1,4 @@
-import { Grid } from "@mui/material";
+import { Container, Grid } from "@mui/material";
 import { Box } from "@mui/system";
 import React from "react";
 
@@ -10,6 +10,7 @@ const About = ({ language }) => {
     <div
       id="About"
       style={{
+        margin: "auto",
         width: "100%",
         height: "auto",
         padding: "2.5rem 5rem",
@@ -32,12 +33,14 @@ const About = ({ language }) => {
           <AboutImage />
         </Grid>
         <Grid item xs={12} md={8}>
-          <Box sx={{
-            width: {
-              sm: '100vw',
-              md: '50vw'
-            }
-          }}>
+          <Box
+            sx={{
+              width: {
+                sm: "100vw",
+                md: "50vw",
+              },
+            }}
+          >
             <AboutText language={language} />
           </Box>
         </Grid>
