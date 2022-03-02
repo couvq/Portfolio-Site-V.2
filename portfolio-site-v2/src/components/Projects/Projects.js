@@ -24,6 +24,7 @@ const Projects = () => {
       <Typography variant="h5">Filter By: </Typography>
       <Stack direction="row" spacing={2}>
         <Button
+          sx={active === "All"? {color: '#fff'} : ""}
           variant={active === "All" ? "contained" : ""}
           onClick={() => {
             setActive("All");
@@ -32,6 +33,7 @@ const Projects = () => {
           All
         </Button>
         <Button
+          sx={active === "Personal"? {color: '#fff'} : ""}
           variant={active === "Personal" ? "contained" : ""}
           onClick={() => {
             setActive("Personal");
@@ -40,6 +42,7 @@ const Projects = () => {
           Personal
         </Button>
         <Button
+          sx={active === "Work"? {color: '#fff'} : ""}
           variant={active === "Work" ? "contained" : ""}
           onClick={() => {
             setActive("Work");
@@ -48,6 +51,7 @@ const Projects = () => {
           Work
         </Button>
         <Button
+          sx={active === "Research"? {color: '#fff'} : ""}
           variant={active === "Research" ? "contained" : ""}
           onClick={() => {
             setActive("Research");
