@@ -14,7 +14,7 @@ const About = ({ language }) => {
         width: "100vw",
         height: "100vh",
         padding: "2.5rem 5rem",
-        marginTop: "2rem",
+        marginTop: "5rem",
         display: "flex",
         justifyContent: "center",
         alignItems: "center",

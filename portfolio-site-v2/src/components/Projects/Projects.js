@@ -2,8 +2,6 @@
 import { Button, Stack, Typography } from '@mui/material';
 import React from 'react';
 
-import ProjectList from './ProjectList';
-
 const Projects = () => {
 
   return (
@@ -11,7 +9,8 @@ const Projects = () => {
     style={{
       padding: '2.5rem 5rem',
       width: '100vw',
-      height: '100vh'
+      height: '100vh',
+      marginTop: '5rem'
     }}
     >
     <Typography variant="h2">My Projects</Typography>
@@ -23,7 +22,7 @@ const Projects = () => {
       <Button>Backend</Button>
       <Button>Research</Button>
     </Stack>
-    <ProjectList />
+    {/* TODO: This is where our project cards will be rendered*/}
     </div>
   );
 }
