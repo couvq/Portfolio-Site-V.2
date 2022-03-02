@@ -14,6 +14,9 @@ const Projects = () => {
         width: "100vw",
         height: "100vh",
         marginTop: "5rem",
+        display: 'flex',
+        flexDirection: 'column',
+        justifyContent: 'center'
       }}
     >
       <Typography variant="h2">My Projects</Typography>
