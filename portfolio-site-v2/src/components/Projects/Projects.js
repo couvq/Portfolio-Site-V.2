@@ -9,7 +9,9 @@ const Projects = () => {
   return (
     <div id="Projects"
     style={{
-      padding: '2.5rem 5rem'
+      padding: '2.5rem 5rem',
+      width: '100vw',
+      height: '100vh'
     }}
     >
     <Typography variant="h2">My Projects</Typography>
