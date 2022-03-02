@@ -32,7 +32,7 @@ const App = () => {
     <div >
       <ThemeProvider theme={theme}>
         <NavBar language={language} setLanguage={languageToggler} />
-        <Hero language={language} />
+        {/* <Hero language={language} /> */}
         <About language={language} />
         <Projects />
         <Technologies />
