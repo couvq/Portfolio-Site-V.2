@@ -19,7 +19,7 @@ const Hero = ({ language }) => {
     <Container
       sx={{
         margin: "5rem 2.5rem",
-        width: "100vw",
+        maxWidth: "100vw",
         height: "100vh",
         marginTop: "10rem",
       }}

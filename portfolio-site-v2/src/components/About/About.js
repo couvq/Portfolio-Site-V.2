@@ -11,8 +11,8 @@ const About = ({ language }) => {
       id="About"
       style={{
         margin: "auto",
-        width: "100%",
-        height: "auto",
+        width: "100vw",
+        height: "100vh",
         padding: "2.5rem 5rem",
         marginTop: "2rem",
         display: "flex",
@@ -29,10 +29,10 @@ const About = ({ language }) => {
           alignItems: "center",
         }}
       >
-        <Grid item xs={12} md={4}>
+        <Grid item xs={12} sm={12} md={4}>
           <AboutImage />
         </Grid>
-        <Grid item xs={12} md={8}>
+        <Grid item xs={12} sm={12} md={8}>
           <Box
             sx={{
               width: {
