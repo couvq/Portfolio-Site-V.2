@@ -34,7 +34,7 @@ const App = () => {
         <NavBar language={language} setLanguage={languageToggler} />
         <Hero language={language} />
         <About language={language} />
-        <Projects />
+        <Projects language={language} />
         <Technologies />
         <Contact />
       </ThemeProvider>
