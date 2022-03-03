@@ -21,7 +21,9 @@ const Projects = () => {
     >
       <Typography variant="h2">My Projects</Typography>
       <br />
+      <br />
       <Typography variant="h5">Filter By: </Typography>
+      <br />
       <Stack direction="row" spacing={2}>
         <Button
           sx={active === "All"? {color: '#fff'} : ""}
