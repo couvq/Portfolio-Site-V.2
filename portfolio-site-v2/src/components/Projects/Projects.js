@@ -3,6 +3,8 @@ import React from "react";
 
 import { useState, useEffect } from "react";
 
+import ProjectList from "./ProjectList";
+
 const data = {
   En: ["My Projects", "Filter By:", "All", "Personal", "Work", "Research"],
   Fr: ["Mes projets", "Filtrer par:", "Tout", "Personnel", "Travailler", "Recherche"]
@@ -103,7 +105,7 @@ const Projects = ({ language }) => {
           {nonProjectCardText[5]}
         </Button>
       </Stack>
-      {/* TODO: This is where our project cards will be rendered*/}
+      <ProjectList />
     </div>
   );
 };
