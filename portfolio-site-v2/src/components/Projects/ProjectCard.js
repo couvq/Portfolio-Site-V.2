@@ -1,10 +1,14 @@
+import { Card } from '@mui/material';
 import React from 'react';
+
 
 const ProjectCard = () => {
 
 
   return (
-    <div>ProjectCard</div>
+    <Card raised>
+    We are in the project card component
+    </Card>
   );
 }
 
