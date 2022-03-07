@@ -7,7 +7,7 @@ const ProjectCard = () => {
 
   return (
     <Card raised>
-      <CardMedia src='/cosmoComposite19-20.jpg'>
+      <CardMedia image="https://source.unsplash.com/random" sx={{ width: '100%', height: '12rem' }} />
       <CardContent>
         <Typography variant='h4'>Title</Typography>
         <Typography>This is our description of our project</Typography>
@@ -16,7 +16,6 @@ const ProjectCard = () => {
         <Button>Live</Button>
         <Button>Code</Button>
       </CardActions>
-      </CardMedia>
     </Card>
   );
 }
